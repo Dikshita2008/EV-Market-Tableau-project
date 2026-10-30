@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EV Market Analysis project — sales trends, vehicle categories, manufacturers, battery types and market regions.">
+  <title>EV Market Analysis | Project Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#home" aria-label="EV Insights home">
+        <span class="brand-mark">ϟ</span>
+        <span><b>EV INSIGHTS</b><small>MARKET ANALYSIS</small></span>
+      </a>
+      <div class="side-label">WORKSPACE</div>
+      <nav class="side-nav">
+        <a class="active" href="#overview"><span>▦</span> Overview</a>
+        <a href="#sales"><span>↗</span> Sales analysis</a>
+        <a href="#technology"><span>◉</span> Battery & technology</a>
+        <a href="#regions"><span>◎</span> Regional markets</a>
+        <a href="#insights"><span>✧</span> Key insights</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="live-card"><span class="live-dot"></span><div><b>Project dashboard</b><small>College data analysis</small></div></div>
+        <div class="author"><div class="avatar">DJ</div><div><b>Dikshita Jain</b><small>Medicap University</small></div></div>
+      </div>
+    </aside>
+
+    <main class="main-content" id="home">
+      <header class="topbar">
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+        <div class="crumb">Workspace <span>/</span> <b>EV Market Analysis</b></div>
+        <div class="top-actions"><span class="status"><i></i> Project overview</span><a class="top-link" href="#about">About project ↗</a></div>
+      </header>
+
+      <section class="hero" id="overview">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> ELECTRIC MOBILITY • DATA STORY</div>
+          <h1>EV Market<br><em>Analysis</em></h1>
+          <p class="hero-text">Explore the signals shaping electric mobility — from vehicle sales and leading manufacturers to battery technology and regional markets.</p>
+          <div class="hero-actions"><a class="btn-primary" href="#sales">Explore dashboard <span>↓</span></a><a class="btn-quiet" href="#insights">View key insights ↗</a></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="hero-stat"><small>ANALYSIS SNAPSHOT</small><strong>10K<span>+</span></strong><small>vehicle records in source dataset</small></div>
+          <div class="car-glow"><svg viewBox="0 0 560 220" role="img"><path d="M70 145 L100 91 Q113 74 151 68 L225 29 Q246 17 281 17 L397 17 Q426 17 450 45 L493 96 L522 112 L538 166 L516 181 L43 181 L25 163 L34 126 Z" fill="#071a27" stroke="#35e5b0" stroke-width="3"/><path d="M135 75 L229 33 Q244 27 276 27 L390 27 Q414 27 433 51 L466 91 L130 91 Z" fill="#0b2b3a" stroke="#1e9e85" stroke-width="2"/><path d="M145 101 H476" stroke="#35e5b0" opacity=".6"/><circle cx="135" cy="177" r="36" fill="#06131e" stroke="#35e5b0" stroke-width="5"/><circle cx="135" cy="177" r="12" fill="#173e4b"/><circle cx="445" cy="177" r="36" fill="#06131e" stroke="#35e5b0" stroke-width="5"/><circle cx="445" cy="177" r="12" fill="#173e4b"/><path d="M290 110 l-20 31 h19 l-8 25 34-39 h-20 l10-17z" fill="#35e5b0"/></svg></div>
+          <div class="hero-bars"><i style="height:30%"></i><i style="height:46%"></i><i style="height:38%"></i><i style="height:58%"></i><i style="height:72%"></i><i style="height:88%"></i><i style="height:100%"></i></div>
+        </div>
+        <div class="hero-footer"><span>01 / MARKET OVERVIEW</span><span>DATA-DRIVEN MOBILITY</span><span>SCROLL TO EXPLORE ↓</span></div>
+      </section>
+
+      <section class="section" id="sales">
+        <div class="section-heading"><div><div class="eyebrow">THE BIG PICTURE</div><h2>Market at a glance</h2><p class="section-sub">A quick snapshot of the indicators shown in the project dashboard.</p></div><div class="date-chip">◷ &nbsp; Project snapshot</div></div>
+        <div class="kpi-grid">
+          <article class="kpi-card"><div class="kpi-top"><span>Total annual sales units</span><span class="kpi-icon">↗</span></div><strong>1.55B</strong><small>1,550,703,961 in project KPI</small><div class="mini-line"><span></span></div></article>
+          <article class="kpi-card"><div class="kpi-top"><span>Average customer rating</span><span class="kpi-icon">★</span></div><strong>4.09<small>/ 5</small></strong><small>Average rating shown in Tableau</small><div class="rating-track"><i></i></div></article>
+          <article class="kpi-card"><div class="kpi-top"><span>Vehicle categories</span><span class="kpi-icon">▤</span></div><strong>14</strong><small>Categories visible in sales chart</small><div class="kpi-tags"><i></i><i></i><i></i><i></i><i></i></div></article>
+          <article class="kpi-card"><div class="kpi-top"><span>Market regions</span><span class="kpi-icon">◎</span></div><strong>7</strong><small>Regions represented in dataset</small><div class="region-dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></article>
+        </div>
+
+        <div class="chart-grid">
+          <article class="panel panel-wide">
+            <div class="panel-head"><div><span class="panel-kicker">CATEGORY PERFORMANCE</span><h3>Sales by vehicle category</h3><p>Annual sales units • project chart values</p></div><span class="chart-badge">BAR CHART</span></div>
+            <div id="categoryChart" class="chart-area"><svg viewBox="0 0 720 443" role="img" aria-label="Horizontal bar chart of sales by vehicle category"><line x1="145.0" y1="0" x2="145.0" y2="405" stroke="#e8eeee"/><text x="145.0" y="425" fill="#91a1a5" font-size="10" text-anchor="middle">0M</text><line x1="293.2" y1="0" x2="293.2" y2="405" stroke="#e8eeee"/><text x="293.2" y="425" fill="#91a1a5" font-size="10" text-anchor="middle">50M</text><line x1="441.3" y1="0" x2="441.3" y2="405" stroke="#e8eeee"/><text x="441.3" y="425" fill="#91a1a5" font-size="10" text-anchor="middle">100M</text><line x1="589.5" y1="0" x2="589.5" y2="405" stroke="#e8eeee"/><text x="589.5" y="425" fill="#91a1a5" font-size="10" text-anchor="middle">150M</text><line x1="708.0" y1="0" x2="708.0" y2="405" stroke="#e8eeee"/><text x="708.0" y="425" fill="#91a1a5" font-size="10" text-anchor="middle">190M</text><text x="136" y="21" text-anchor="end" font-size="10" fill="#637b82">Two-Wheeler Scooter</text><rect x="145" y="11" width="517.4" height="13" rx="3" fill="#16a982"><title>Two-Wheeler Scooter: 174,615,722</title></rect><text x="136" y="48" text-anchor="end" font-size="10" fill="#637b82">Hatchback</text><rect x="145" y="38" width="459.0" height="13" rx="3" fill="#3d82b8"><title>Hatchback: 154,913,963</title></rect><text x="136" y="75" text-anchor="end" font-size="10" fill="#637b82">Compact SUV</text><rect x="145" y="65" width="454.6" height="13" rx="3" fill="#3d82b8"><title>Compact SUV: 153,423,011</title></rect><text x="136" y="102" text-anchor="end" font-size="10" fill="#637b82">Sedan</text><rect x="145" y="92" width="454.4" height="13" rx="3" fill="#3d82b8"><title>Sedan: 153,351,587</title></rect><text x="136" y="129" text-anchor="end" font-size="10" fill="#637b82">Three-Wheeler</text><rect x="145" y="119" width="394.5" height="13" rx="3" fill="#3d82b8"><title>Three-Wheeler: 133,134,035</title></rect><text x="136" y="156" text-anchor="end" font-size="10" fill="#637b82">Crossover</text><rect x="145" y="146" width="392.0" height="13" rx="3" fill="#3d82b8"><title>Crossover: 132,304,173</title></rect><text x="136" y="183" text-anchor="end" font-size="10" fill="#637b82">Micro City Car</text><rect x="145" y="173" width="342.0" height="13" rx="3" fill="#3d82b8"><title>Micro City Car: 115,413,538</title></rect><text x="136" y="210" text-anchor="end" font-size="10" fill="#637b82">Luxury Sedan</text><rect x="145" y="200" width="341.6" height="13" rx="3" fill="#3d82b8"><title>Luxury Sedan: 115,272,864</title></rect><text x="136" y="237" text-anchor="end" font-size="10" fill="#637b82">Full-size SUV</text><rect x="145" y="227" width="339.8" height="13" rx="3" fill="#3d82b8"><title>Full-size SUV: 114,667,715</title></rect><text x="136" y="264" text-anchor="end" font-size="10" fill="#637b82">Van / MPV</text><rect x="145" y="254" width="289.4" height="13" rx="3" fill="#3d82b8"><title>Van / MPV: 97,658,601</title></rect><text x="136" y="291" text-anchor="end" font-size="10" fill="#637b82">Luxury SUV</text><rect x="145" y="281" width="284.2" height="13" rx="3" fill="#3d82b8"><title>Luxury SUV: 95,909,210</title></rect><text x="136" y="318" text-anchor="end" font-size="10" fill="#637b82">Sports Car</text><rect x="145" y="308" width="219.1" height="13" rx="3" fill="#3d82b8"><title>Sports Car: 73,955,673</title></rect><text x="136" y="345" text-anchor="end" font-size="10" fill="#637b82">Electric Truck</text><rect x="145" y="335" width="38.3" height="13" rx="3" fill="#3d82b8"><title>Electric Truck: 12,923,461</title></rect><text x="136" y="372" text-anchor="end" font-size="10" fill="#637b82">Pickup Truck</text><rect x="145" y="362" width="38.0" height="13" rx="3" fill="#3d82b8"><title>Pickup Truck: 12,811,256</title></rect><text x="136" y="399" text-anchor="end" font-size="10" fill="#637b82">Electric Bus</text><rect x="145" y="389" width="30.7" height="13" rx="3" fill="#3d82b8"><title>Electric Bus: 10,349,152</title></rect></svg></div>
+          </article>
+          <article class="panel">
+            <div class="panel-head"><div><span class="panel-kicker">YEARLY MOVEMENT</span><h3>Sales trend</h3><p>Annual sales units by model year</p></div><span class="chart-badge">2018–2026</span></div>
+            <div id="trendChart" class="chart-area trend-area"><svg viewBox="0 0 550 235" role="img" aria-label="Line chart showing sales trend from 2018 to 2026"><line x1="36" y1="173.6" x2="535" y2="173.6" stroke="#e8eeee"/><text x="28" y="176.6" font-size="9" text-anchor="end" fill="#92a1a4">166M</text><line x1="36" y1="120.7" x2="535" y2="120.7" stroke="#e8eeee"/><text x="28" y="123.7" font-size="9" text-anchor="end" fill="#92a1a4">170M</text><line x1="36" y1="67.9" x2="535" y2="67.9" stroke="#e8eeee"/><text x="28" y="70.9" font-size="9" text-anchor="end" fill="#92a1a4">174M</text><line x1="36" y1="15.0" x2="535" y2="15.0" stroke="#e8eeee"/><text x="28" y="18.0" font-size="9" text-anchor="end" fill="#92a1a4">178M</text><path d="M36.0,93.0 L98.4,28.2 L160.8,94.3 L223.1,176.2 L285.5,110.1 L347.9,89.0 L410.2,29.5 L472.6,78.4 L535.0,110.1" fill="none" stroke="#174c77" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="36.0" cy="93.0" r="4" fill="#fff" stroke="#159b7c" stroke-width="2"><title>2018: 172.1M</title></circle><text x="36.0" y="226" font-size="9" text-anchor="middle" fill="#819398">2018</text><circle cx="98.4" cy="28.2" r="4" fill="#fff" stroke="#159b7c" stroke-width="2"><title>2019: 177.0M</title></circle><text x="98.4" y="226" font-size="9" text-anchor="middle" fill="#819398">2019</text><circle cx="160.8" cy="94.3" r="4" fill="#fff" stroke="#159b7c" stroke-width="2"><title>2020: 172.0M</title></circle><text x="160.8" y="226" font-size="9" text-anchor="middle" fill="#819398">2020</text><circle cx="223.1" cy="176.2" r="4" fill="#fff" stroke="#159b7c" stroke-width="2"><title>2021: 165.8M</title></circle><text x="223.1" y="226" font-size="9" text-anchor="middle" fill="#819398">2021</text><circle cx="285.5" cy="110.1" r="4" fill="#fff" stroke="#159b7c" stroke-width="2"><title>2022: 170.8M</title></circle><text x="285.5" y="226" font-size="9" text-anchor="middle" fill="#819398">2022</text><circle cx="347.9" cy="89.0" r="4" fill="#fff" stroke="#159b7c" stroke-width="2"><title>2023: 172.4M</title></circle><text x="347.9" y="226" font-size="9" text-anchor="middle" fill="#819398">2023</text><circle cx="410.2" cy="29.5" r="4" fill="#fff" stroke="#159b7c" stroke-width="2"><title>2024: 176.9M</title></circle><text x="410.2" y="226" font-size="9" text-anchor="middle" fill="#819398">2024</text><circle cx="472.6" cy="78.4" r="4" fill="#fff" stroke="#159b7c" stroke-width="2"><title>2025: 173.2M</title></circle><text x="472.6" y="226" font-size="9" text-anchor="middle" fill="#819398">2025</text><circle cx="535.0" cy="110.1" r="4" fill="#fff" stroke="#159b7c" stroke-width="2"><title>2026: 170.8M</title></circle><text x="535.0" y="226" font-size="9" text-anchor="middle" fill="#819398">2026</text></svg></div>
+            <div class="chart-foot"><span><i class="legend-line"></i> Annual sales units</span><b>Peak shown: 2019 & 2024</b></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="technology">
+        <div class="section-heading"><div><div class="eyebrow">POWERING THE VEHICLE</div><h2>Battery & technology mix</h2><p class="section-sub">Battery types and vehicle technology fields included in the dataset.</p></div></div>
+        <div class="tech-grid">
+          <article class="panel dark-panel">
+            <div class="panel-head"><div><span class="panel-kicker">BATTERY COMPOSITION</span><h3>Battery type distribution</h3><p>Share displayed in the Tableau pie chart</p></div></div>
+            <div class="battery-content"><div id="batteryChart" class="donut-chart"></div><div id="batteryLegend" class="legend-list"><div class="legend-item"><i style="background:#287bc3"></i>LFP<b>31.99%</b></div><div class="legend-item"><i style="background:#f59b18"></i>NCA<b>17.23%</b></div><div class="legend-item"><i style="background:#ed333b"></i>NMC<b>33.80%</b></div><div class="legend-item"><i style="background:#64d8d0"></i>Sodium-Ion<b>9.88%</b></div><div class="legend-item"><i style="background:#4ebc39"></i>Solid-State<b>7.10%</b></div></div></div>
+          </article>
+          <article class="panel dark-panel tech-info">
+            <span class="panel-kicker">DATASET FIELDS</span><h3>What the dataset tracks</h3>
+            <div class="field-list">
+              <div><span class="field-icon">⚡</span><section><b>Battery performance</b><small>Battery type, capacity, cycle life and degradation</small></section></div>
+              <div><span class="field-icon">◉</span><section><b>Vehicle specifications</b><small>Category, model year, drivetrain and acceleration</small></section></div>
+              <div><span class="field-icon">⌁</span><section><b>Charging & efficiency</b><small>Charging time, fast-charge time and efficiency per km</small></section></div>
+              <div><span class="field-icon">♧</span><section><b>Environmental impact</b><small>CO₂ saved tons per year and related indicators</small></section></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="regions">
+        <div class="section-heading"><div><div class="eyebrow">GLOBAL VIEW</div><h2>Regional market spread</h2><p class="section-sub">Regional totals transcribed from the donut chart in the project PDF.</p></div><span class="chart-badge">7 REGIONS</span></div>
+        <div class="region-layout">
+          <article class="panel region-panel"><div class="panel-head"><div><span class="panel-kicker">MARKET REGIONS</span><h3>Regional distribution</h3><p>Select a region to highlight its share.</p></div></div><div class="region-chart-wrap"><div id="regionChart" class="donut-chart region-donut"></div><div class="region-center"><b>1.55B</b><small>total sales units</small></div></div><div id="regionLegend" class="region-legend"><button type="button" data-region="0"><i style="background:#287bc3"></i><span>Africa</span><span>220.7M</span></button><button type="button" data-region="1"><i style="background:#f59b18"></i><span>Asia Pacific</span><span>221.1M</span></button><button type="button" data-region="2"><i style="background:#ed4248"></i><span>Europe</span><span>217.5M</span></button><button type="button" data-region="3"><i style="background:#5bcbbb"></i><span>Latin America</span><span>223.4M</span></button><button type="button" data-region="4"><i style="background:#4ebc39"></i><span>Middle East</span><span>221.2M</span></button><button type="button" data-region="5"><i style="background:#e2dc2c"></i><span>North America</span><span>222.8M</span></button><button type="button" data-region="6"><i style="background:#d66db6"></i><span>South Asia</span><span>224.0M</span></button></div></article>
+          <article class="panel manufacturer-panel"><div class="panel-head"><div><span class="panel-kicker">MANUFACTURER COMPARISON</span><h3>Leading manufacturers</h3><p>Sales units • values approximated from the screenshot scale</p></div></div><div id="manufacturerChart" class="chart-area"><svg viewBox="0 0 600 260" role="img" aria-label="Manufacturer sales comparison chart"><text x="136" y="19" text-anchor="end" font-size="10" fill="#637b82">AmpereWorks</text><rect x="145" y="9" width="440.0" height="12" rx="3" fill="#174c77"><title>AmpereWorks: 9.45M (approximate)</title></rect><text x="136" y="42" text-anchor="end" font-size="10" fill="#637b82">CircuitWorks</text><rect x="145" y="32" width="415.3" height="12" rx="3" fill="#326c9a"><title>CircuitWorks: 8.92M (approximate)</title></rect><text x="136" y="65" text-anchor="end" font-size="10" fill="#637b82">MomentumMobility</text><rect x="145" y="55" width="407.9" height="12" rx="3" fill="#326c9a"><title>MomentumMobility: 8.76M (approximate)</title></rect><text x="136" y="88" text-anchor="end" font-size="10" fill="#637b82">SurgeDynamics</text><rect x="145" y="78" width="407.0" height="12" rx="3" fill="#326c9a"><title>SurgeDynamics: 8.74M (approximate)</title></rect><text x="136" y="111" text-anchor="end" font-size="10" fill="#637b82">TerraMotors</text><rect x="145" y="101" width="406.0" height="12" rx="3" fill="#326c9a"><title>TerraMotors: 8.72M (approximate)</title></rect><text x="136" y="134" text-anchor="end" font-size="10" fill="#637b82">AmpereDynamics</text><rect x="145" y="124" width="405.1" height="12" rx="3" fill="#326c9a"><title>AmpereDynamics: 8.70M (approximate)</title></rect><text x="136" y="157" text-anchor="end" font-size="10" fill="#637b82">VoltoMobility</text><rect x="145" y="147" width="404.6" height="12" rx="3" fill="#326c9a"><title>VoltoMobility: 8.69M (approximate)</title></rect><text x="136" y="180" text-anchor="end" font-size="10" fill="#637b82">CurrentMotors</text><rect x="145" y="170" width="404.2" height="12" rx="3" fill="#326c9a"><title>CurrentMotors: 8.68M (approximate)</title></rect><text x="136" y="203" text-anchor="end" font-size="10" fill="#637b82">WattWheels</text><rect x="145" y="193" width="403.2" height="12" rx="3" fill="#326c9a"><title>WattWheels: 8.66M (approximate)</title></rect><text x="136" y="226" text-anchor="end" font-size="10" fill="#637b82">CircuitRides</text><rect x="145" y="216" width="401.8" height="12" rx="3" fill="#326c9a"><title>CircuitRides: 8.63M (approximate)</title></rect></svg></div></article>
+        </div>
+      </section>
+
+      <section class="section insights-section" id="insights">
+        <div class="section-heading"><div><div class="eyebrow">WHAT STANDS OUT</div><h2>Key project insights</h2><p class="section-sub">Observations based on the visualisations included in your project PDF.</p></div></div>
+        <div class="insight-grid">
+          <article class="insight-card"><span>01</span><h3>Two-wheelers lead</h3><p>Two-Wheeler Scooter is the highest sales category in the displayed category chart, followed by Hatchback and Compact SUV.</p></article>
+          <article class="insight-card"><span>02</span><h3>Sales fluctuate by year</h3><p>The trend chart rises to visible peaks around 2019 and 2024, with a notable dip around 2021.</p></article>
+          <article class="insight-card"><span>03</span><h3>Battery mix is varied</h3><p>NMC and LFP are the two largest slices in the battery type chart, with other battery technologies also represented.</p></article>
+          <article class="insight-card"><span>04</span><h3>Markets are distributed</h3><p>The regional donut shows a broadly distributed market across Africa, Asia Pacific, Europe, Latin America, Middle East, North America and South Asia.</p></article>
+        </div>
+      </section>
+
+      <section class="about-strip" id="about"><div class="about-mark">ϟ</div><div><span class="eyebrow">ABOUT THIS PROJECT</span><h2>Understanding the road to electric mobility.</h2><p>This website presents a web version of the EV Market Analysis project documentation and Tableau screenshots supplied with the project PDF.</p></div><div class="about-meta"><b>Created by</b><strong>Dikshita Jain</strong><small>Medicap University</small></div></section>
+      <footer><span>© 2026 EV Insights • Academic project</span><span>Built from the supplied EV Market Analysis PDF</span><a href="#home">Back to top ↑</a></footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
